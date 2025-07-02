@@ -14,7 +14,7 @@ namespace MvcCv.Repositories
         {
             return db.Set<T>().ToList();
         }
-        public void TAdd (T p)
+        public void TAdd(T p)
         {
             db.Set<T>().Add(p);
             db.SaveChanges();
