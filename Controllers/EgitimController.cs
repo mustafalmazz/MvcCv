@@ -9,12 +9,13 @@ using System.Web.Mvc;
 
 namespace MvcCv.Controllers
 {
-    
 
+    [Authorize]
     public class EgitimController : Controller
     {
         EgitimRepository repo = new EgitimRepository();
         // GET: Egitim
+        
         public ActionResult Index()
         {
             var egitim = repo.List();

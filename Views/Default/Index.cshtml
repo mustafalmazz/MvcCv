@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
@@ -35,11 +36,13 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
+                <li><p></p></li>
+                <li><p></p></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Hakkımda</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Deneyimler</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Eğitim Hayatım</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Yeteneklerim</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Hobilerim</a></li>
+                @*<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Hobilerim</a></li>*@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Sertifikalarım</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">İletişim</a></li>
             </ul>
@@ -80,11 +83,6 @@
         <!-- Skills-->
         <section class="resume-section" id="skills">
             @Html.Action("Yeteneklerim")
-        </section>
-        <hr class="m-0" />
-        <!-- Interests-->
-        <section class="resume-section" id="interests">
-            @Html.Action("Hobilerim")
         </section>
         <hr class="m-0" />
         <!-- Awards-->

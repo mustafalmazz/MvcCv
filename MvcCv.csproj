@@ -129,6 +129,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\DeneyimController.cs" />
     <Compile Include="Controllers\EgitimController.cs" />
@@ -136,6 +137,7 @@
     <Compile Include="Controllers\HobiController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\iletisimController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\SertifikaController.cs" />
     <Compile Include="Controllers\SosyalMedyaController.cs" />
     <Compile Include="Controllers\YetenekController.cs" />
@@ -2384,6 +2386,10 @@
     <Content Include="Views\Default\SosyalMedya.cshtml" />
     <Content Include="Views\SosyalMedya\Index.cshtml" />
     <Content Include="Views\SosyalMedya\SayfaGetir.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\AdminEkle.cshtml" />
+    <Content Include="Views\Admin\AdminDuzenle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
