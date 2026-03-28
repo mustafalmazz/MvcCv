@@ -23,15 +23,13 @@ Bu proje, kişisel özgeçmiş (CV) ve portfolyo bilgilerinin dinamik olarak yö
 
 ### Canlı Web Sitesi (Ön Yüz Arayüzü)
 *(Ziyaretçilerin gördüğü kişisel web sitesi arayüzü)*
-![CV Ön Yüz](CvImages/Frontend.png)
+![CV Ön Yüz](MvcCvImages/Ana.png)
+___________________________________________________________________
+![Proje Mimarisi](MvcCvImages/Yetenekler.png)
 
 ### Admin Kontrol Paneli (Arayüz)
 *(Deneyim, Eğitim ve Yeteneklerin dinamik olarak yönetildiği, yetkilendirmeli kurumsal arayüz)*
-![Admin Paneli](CvImages/AdminPanel.png)
-
-### Proje Mimarisi ve Kod Yapısı (Visual Studio)
-*(Projenin MVC 5 mimarisi, `Areas/Admin` kurumsal yapısı ve Solution Explorer üzerindeki dosya organizasyonunun görüntüsü)*
-![Proje Mimarisi](CvImages/ProjectArchitecture.png)
+![Admin Paneli](MvcCvImages/Dashboard.png)
 
 ---
 *Geliştirici: [Mustafa Almaz](https://github.com/mustafalmazz) - .NET Developer*
